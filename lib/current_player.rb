@@ -2,7 +2,7 @@ def turn_count(board)
   fuck = 0 
   board.each do | filled |
   if filled == "x" || filled == "o"
-    counter += 1 
+    fuck += 1 
   end 
  return fuck
 end 
