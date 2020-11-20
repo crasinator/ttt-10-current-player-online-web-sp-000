@@ -1,10 +1,9 @@
-def turn_count(board1)
+def turn_count(board)
   counter = 0 
-  board1.each do | filled |
-  if filled == "X" || filled == "O"
-    counter += 1 
+  board.each do | filled |
+ puts fuck 
+  counter += 1 
   end 
- 
 end 
 end 
 
