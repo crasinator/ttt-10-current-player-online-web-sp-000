@@ -1,5 +1,7 @@
 def turn_count(board)
-  counter = 3 
+  counter = 0 
+  if each.board? == "X" || each.board? == "O"
+    counter += 1 
 return counter 
 end 
 
