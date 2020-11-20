@@ -10,8 +10,6 @@ end
 
 
 def current_player(board)
-  if counter.even? "X"
-  else
-    current_player = "O"
+  if counter.even? "X" : "O"
   end 
 end 
