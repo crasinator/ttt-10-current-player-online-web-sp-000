@@ -4,7 +4,7 @@ def turn_count(board)
   if filled == "x" || filled == "o"
     counter += 1 
   end 
- counter 
+ puts counter 
 end 
 end 
 
