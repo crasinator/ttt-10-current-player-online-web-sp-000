@@ -1,9 +1,11 @@
 def turn_count(board)
   counter = 0 
   board.each do | filled |
- puts "fuck" 
-  counter += 1 
+  if filled == "x" || filled == "o"
+    counter += 1 
   end 
+ counter 
+end 
 end 
 
 
