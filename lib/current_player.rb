@@ -1,6 +1,6 @@
-def turn_count(board)
+def turn_count(board1)
   counter = 0 
-  board.each do | filled |
+  board1.each do | filled |
   if filled == "X" || filled == "O"
     counter += 1 
   end 
