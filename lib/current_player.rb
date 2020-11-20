@@ -9,9 +9,8 @@ return counter
 end 
 
 
-def current_player
-  if counter.even? == true
-    current_player = "X"
+def current_player(board)
+  if counter.even? "X"
   else
     current_player = "O"
   end 
