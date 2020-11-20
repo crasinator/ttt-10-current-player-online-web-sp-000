@@ -1,5 +1,6 @@
 def turn_count(board)
-  counter = 0 
+  
+  fuck = 0 
   board.each do | filled |
   if filled == "x" || filled == "o"
     counter += 1 
