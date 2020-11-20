@@ -1,5 +1,6 @@
 def turn_count(board)
   counter = 0 
+  
   board.each |filled|
   if filled == "X" || filled == "O"
     counter += 1 
@@ -7,5 +8,9 @@ def turn_count(board)
 end 
 
 def current_player
-  counter.even? 
+  if counter.even? == true
+    current_player = "X"
+  else
+    current_player = "O"
+  end 
 end 
