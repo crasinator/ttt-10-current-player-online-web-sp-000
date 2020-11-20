@@ -5,10 +5,11 @@ def turn_count(board)
   if filled == "X" || filled == "O"
     counter += 1 
   end 
+  counter
 end 
 
 def current_player(board)
-  if counter.even? == true
+  if turn_count.even? == true
     current_player = "X"
   else
     current_player = "O"
