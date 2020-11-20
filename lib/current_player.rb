@@ -7,7 +7,7 @@ def turn_count(board)
   end 
 end 
 
-def current_player
+def current_player(board)
   if counter.even? == true
     current_player = "X"
   else
