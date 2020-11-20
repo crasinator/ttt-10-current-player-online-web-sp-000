@@ -1,13 +1,7 @@
 def turn_count(board)
-  fuck = 0 
-  board.each do | filled |
-  if filled == "x" || filled == "o"
-    fuck += 1 
-  end 
- return fuck
+  counter = 0 
+return counter 
 end 
-end 
-
 
 
 def current_player
